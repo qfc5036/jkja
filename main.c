@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <readline/readline.h>
 int main(void) {
-  char * grade = readline("Enter your CMPSC 131 grade is: ");
+  char * grade = readline("Enter your CMPSC131 grade: ");
   double grades = atof(grade);
   if (grades>=93.0){
     puts ("Your letter grade for CMPSC131 is A.");
